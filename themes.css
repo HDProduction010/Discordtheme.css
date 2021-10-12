@@ -2,35 +2,6 @@
 
 /* ---- Style ---- */
 .theme-dark {
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #b9bbbe;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #72767d;
-    --background-primary: #5c5c5c;
-    --background-secondary: #232438;
-    --background-secondary-alt: #1d1f2f;
-    --background-tertiary: #181926;
-    --background-accent: #3e3f65;
-    --background-floating: #101019;
-    --background-mobile-primary: #292841;
-    --background-mobile-secondary: #232438;
-    --background-modifier-hover: rgba(62, 63, 101, 0.16);
-    --background-modifier-active: rgba(62, 63, 101, 0.24);
-    --background-modifier-selected: rgba(62, 63, 101, 0.32);
-    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
-    --info-positive-text: #fff;
-    --info-warning-text: #fff;
-    --info-danger-text: #fff;
-    --info-help-background: hsla(
-        197,
-        calc(var(--saturation-factor, 1) * 100%),
-        47.8%,
-        0.1
-    );
     --info-help-foreground: hsl(
         197,
         calc(var(--saturation-factor, 1) * 100%),
