@@ -7,18 +7,12 @@
         calc(var(--saturation-factor, 1) * 100%),
         47.8%
     );
-    --info-help-text: #fff;
-    --status-warning-text: #000;
-    --scrollbar-thin-thumb: #181926;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #181926;
+  
     --scrollbar-auto-track: hsl(
         233,
         calc(var(--saturation-factor, 1) * 26%),
         18%
     );
-    --scrollbar-auto-scrollbar-color-thumb: #181926;
-    --scrollbar-auto-scrollbar-color-track: #232438;
     --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
     --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05),
         0 2px 0 rgba(4, 4, 5, 0.05);
@@ -48,11 +42,7 @@
         0.08
     );
     --background-message-hover: rgba(4, 4, 5, 0.07);
-    --channels-default: #8e9297;
     --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
-    --channeltextarea-background: #30304f;
-    --activity-card-background: #181926;
-    --textbox-markdown-syntax: #8e9297;
     --deprecated-card-bg: rgba(24, 25, 38, 0.6);
     --deprecated-card-editable-bg: rgba(24, 25, 38, 0.3);
     --deprecated-store-bg: #292841;
@@ -60,9 +50,6 @@
     --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
     --deprecated-text-input-bg: rgba(0, 0, 0, 0.1);
     --deprecated-text-input-border: rgba(0, 0, 0, 0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #181926;
-    --deprecated-text-input-prefix: #dcddde;
 }
 .theme-dark,
 .theme-light {
