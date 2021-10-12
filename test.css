@@ -16,9 +16,9 @@
     position: absolute;
     background: linear-gradient(
         90deg,
-        rgb(50, 117, 168) 0%,
-        rgb(168, 50, 148) 50%,
-        rgb(232, 222, 32) 100%
+        rgb(255, 17, 0) 0%,
+        rgb(0, 89, 255) 50%,
+        rgb(255, 0, 72) 100%
     );
     height: calc(100vh + (var(--background-image-blur) * 2));
     width: calc(100vw + (var(--background-image-blur) * 2));
