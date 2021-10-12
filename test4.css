@@ -14,13 +14,6 @@
 #app-mount::before {
     content: "";
     position: absolute;
-    background: linear-gradient(
-        90deg,
-        rgb(181, 0, 0) 0%,
-        rgb(250, 217, 0) 25%,
-        rgb(0, 179, 250) 50%,
-        rgb(221, 0, 250) 75%,
-        rgb(250, 0, 0) 100%
     );
     height: calc(100vh + (var(--background-image-blur) * 2));
     width: calc(100vw + (var(--background-image-blur) * 2));
